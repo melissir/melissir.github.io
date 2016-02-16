@@ -59,9 +59,8 @@ header{
     border-width: 5px;
     border-style: solid;
     border-radius: 50%;
-    height: auto;
-    width: 100%;
 }
+
 
 .p-format{
     text-align: center;
@@ -84,4 +83,8 @@ h1{
 
 #foot-links ul li{
     display: inline;
+}
+
+.full-width{
+    width: 100%
 }
