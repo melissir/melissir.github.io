@@ -1,0 +1,85 @@
+header{
+    text-align: center;
+    background: url(../images/computer.jpg) no-repeat center;
+    background-size: cover;
+    height: 800px;
+    margin-top: 40px;
+
+}
+
+#head-box{
+    padding: 80px;
+    border: 5px solid white;
+    margin-top: 160px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+#about{
+    background: url(../images/fabricchanged.jpg) no-repeat center;
+    background-size: cover;
+    height: 800px;
+    padding: 12% 10%;
+    color: white;
+    font-size: 20px;
+}
+
+#portfolio{
+    background: url(../images/brick.jpg) no-repeat center;
+    background-size: cover;
+    height: 800px;
+    color: white;
+}
+
+#contact{
+    background: url(../images/paper.jpg) no-repeat center;
+    background-size: cover;
+    height: 200px;
+}
+
+
+.btn {
+    color: white;
+    border: 2px outset rgba(255, 255, 255, 0.9);
+    background: #4c4c4c;
+    text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    letter-spacing: 2px;
+    transition: 0.2s;
+    width: inherit;
+}
+
+
+#footer{
+    background: darkgoldenrod;
+}
+
+
+.round-white-border {
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.p-format{
+    text-align: center;
+    padding: 50px;
+}
+
+h2{
+    color: #4c4c4c;
+}
+
+h1{
+    color: #4c4c4c;
+    text-shadow: 3px 3px 3px rgba(12,2,2, 0.3);
+    font-size: 60px;
+}
+
+.colored-text{
+    color: #66e8ef;
+}
+
+#foot-links ul li{
+    display: inline;
+}
