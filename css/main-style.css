@@ -78,7 +78,7 @@ h1{
 }
 
 .colored-text{
-    color: #66e8ef;
+    color: #15C2CC;
 }
 
 #foot-links ul li{
@@ -86,5 +86,36 @@ h1{
 }
 
 .full-width{
-    width: 100%
+    width: 100%;
 }
+
+#quote-sec{
+    background: url( ../images/quoteprojpic.jpg);
+    background-size: cover;
+    height: 250px;
+}
+
+.overlay{
+    position:relative;
+    top:0px;
+    height:250px;
+    width: auto;
+    background:#000000;
+    opacity:0;
+}
+
+#quote-sec:hover .overlay{
+    opacity:0.6;
+}
+
+
+
+.row-format{
+    padding: 20px;
+}
+
+#port-text{
+    color: lightgray;
+}
+
+
