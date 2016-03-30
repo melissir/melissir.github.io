@@ -48,8 +48,8 @@ header{
     box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
     letter-spacing: 2px;
     transition: 0.2s;
-    width: inherit;
     white-space: normal;
+    width: 40%;
 }
 
 
