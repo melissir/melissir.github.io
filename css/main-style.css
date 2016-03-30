@@ -37,6 +37,7 @@ header{
 #contact{
     background: url(../images/paper.jpg) no-repeat center;
     background-size: cover;
+    padding: 10px;
 }
 
 
@@ -66,11 +67,6 @@ header{
     border-radius: 50%;
 }
 
-
-.p-format{
-    text-align: center;
-    padding: 10px;
-}
 
 h3{
     color: #4c4c4c;
