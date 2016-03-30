@@ -3,14 +3,14 @@ header{
     text-align: center;
     background: url(../images/computer.jpg) no-repeat center;
     background-size: cover;
-    height: 25%;
+    height: 500px;
 }
 
 #head-box{
     padding: 20px;
     border: 5px solid white;
-    margin-top: 15%;
-    margin-bottom: 10%;
+    margin-top: 150px;
+    margin-bottom: 150px;
     box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
     color: #4c4c4c;
     text-shadow: 3px 3px 3px rgba(12,2,2, 0.3);
