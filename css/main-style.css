@@ -1,12 +1,4 @@
 
-h2 {
-    font-size: 2.5vw;
-}
-
-body{
-    font-size: 1vm;
-}
-
 header{
     text-align: center;
     background: url(../images/computer.jpg) no-repeat center;
@@ -15,11 +7,14 @@ header{
 }
 
 #head-box{
-    padding: 8%;
+    padding: 20px;
     border: 5px solid white;
-    margin-top: 10%;
+    margin-top: 15%;
     margin-bottom: 10%;
     box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    color: #4c4c4c;
+    text-shadow: 3px 3px 3px rgba(12,2,2, 0.3);
+    font-size: 50px;
 }
 
 #about{
@@ -82,11 +77,6 @@ h3{
     word-wrap: break-word;
 }
 
-h1{
-    color: #4c4c4c;
-    text-shadow: 3px 3px 3px rgba(12,2,2, 0.3);
-    font-size: 5vw;
-}
 
 .colored-text{
     color: #98F5FF;
@@ -96,9 +86,6 @@ h1{
     display: inline;
 }
 
-.full-width{
-    width: 100%;
-}
 
 #quote-sec{
     background: #7F7F7F url( ../images/quoteprojpic.jpg) no-repeat;
