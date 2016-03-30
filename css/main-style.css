@@ -17,8 +17,8 @@ header{
 #about{
     background: url(../images/fabricchanged.jpg) no-repeat center;
     background-size: cover;
-    height: 800px;
-    padding: 12% 10%;
+    height: 600px;
+    padding: 10%;
     color: white;
     font-size: 20px;
 }
@@ -33,7 +33,7 @@ header{
 #contact{
     background: url(../images/paper.jpg) no-repeat center;
     background-size: cover;
-    height: 200px;
+    height: 170px;
 }
 
 
@@ -46,6 +46,7 @@ header{
     letter-spacing: 2px;
     transition: 0.2s;
     width: inherit;
+    white-space: normal;
 }
 
 
@@ -64,11 +65,12 @@ header{
 
 .p-format{
     text-align: center;
-    padding: 50px;
+    padding: 10px;
 }
 
-h2{
+h3{
     color: #4c4c4c;
+    word-wrap: break-word;
 }
 
 h1{
@@ -78,7 +80,7 @@ h1{
 }
 
 .colored-text{
-    color: #15C2CC;
+    color: #98F5FF;
 }
 
 #foot-links ul li{
@@ -90,9 +92,10 @@ h1{
 }
 
 #quote-sec{
-    background: url( ../images/quoteprojpic.jpg);
-    background-size: cover;
+    background: #7F7F7F url( ../images/quoteprojpic.jpg) no-repeat;
+    background-size: 100% auto;
     height: 250px;
+    background-position: center center;
 }
 
 .overlay{
@@ -124,6 +127,11 @@ h1{
 
 #port-text{
     color: lightgray;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px rgba(12,2,2, 0.3);
 }
+
+
+
 
 
