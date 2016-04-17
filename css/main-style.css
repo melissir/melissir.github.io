@@ -83,45 +83,30 @@ h3{
 }
 
 
-#quote-sec{
-    background: #7F7F7F url( ../images/quoteprojpic.jpg) no-repeat;
-    background-size: 100% auto;
-    height: 250px;
-    background-position: center center;
+.over{
+    position: relative;
 }
 
-#weather-sec{
-    background: #7F7F7F url( ../images/weather.png) no-repeat;
-    background-size: 100% auto;
-    height: 250px;
-    background-position: center center;
+.over img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.overlay{
-    position:relative;
-    top: 0px;
-    height:250px;
-    width: auto;
-    background:#000000;
-    opacity:0;
-    font-size: 70px;
+.text{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 95%;
+    color: lightgray;
     text-align: center;
-
+    font-size: 80px;
 }
 
-.overlay span{
-    position:relative;
-    top:35%;
+.over:hover .text {
+    display: block;
 }
-
-#quote-sec:hover .overlay{
-    opacity:0.6;
-}
-
-#weather-sec:hover .overlay{
-    opacity:0.6;
-}
-
 
 
 .row-format{
