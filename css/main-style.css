@@ -97,11 +97,12 @@ h3{
     display: none;
     position: absolute;
     bottom: 0;
+    top: 30%;
     height: 100%;
     width: 95%;
     color: lightgray;
     text-align: center;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 .over:hover .text {
