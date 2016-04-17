@@ -3,13 +3,13 @@ header{
     text-align: center;
     background: url(../images/computer.jpg) no-repeat center;
     background-size: cover;
-    height: 500px;
+    height: 700px;
 }
 
 #head-box{
     padding: 20px;
     border: 5px solid white;
-    margin-top: 150px;
+    margin-top: 220px;
     margin-bottom: 150px;
     box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
     color: #4c4c4c;
